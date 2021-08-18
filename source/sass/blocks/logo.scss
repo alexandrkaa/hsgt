@@ -1,0 +1,9 @@
+.logo {
+  @include mq(desktop-s) {
+    max-width: 300px;
+  }
+
+  @include mq(mobile-xl) {
+    max-width: 220px;
+  }
+}

@@ -1,0 +1,93 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content__header {
+  font-family: "MontserratBlack", "Roboto", "Arial", sans-serif;
+  font-size: 82px;
+  line-height: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  color: $cl-white;
+  text-align: right;
+  margin-top: 36px;
+
+  @include mq(desktop-xl) {
+    font-size: 70px;
+    margin-top: 30px;
+  }
+
+  @include mq(desktop-s) {
+    font-size: 60px;
+    margin-top: 26px;
+  }
+
+  @include mq(mobile-xl) {
+    font-size: 42px;
+    margin-top: 10px;
+    // background-color: $cl-black;
+  }
+}
+
+.content__lead {
+  font-family: "Montserrat", "Roboto", "Arial", sans-serif;
+  font-size: 40px;
+  color: $cl-yellow;
+  background-color: $cl-black;
+  padding: 10px;
+  margin: 0;
+
+  @include mq(desktop-xl) {
+    font-size: 35px;
+    padding: 7px;
+  }
+
+  @include mq(desktop-s) {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  @include mq(desktop-ss) {
+    font-size: 26px;
+    padding: 5px;
+  }
+
+  @include mq(mobile-xl) {
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.content__description {
+  font-size: 21px;
+  line-height: 26px;
+  color: $cl-yellow;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+
+  @include mq(desktop-xl) {
+    font-size: 19px;
+    line-height: 23px;
+  }
+
+  @include mq(desktop-s) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @include mq(mobile-xl) {
+    text-align: left;
+    padding: 0 10px;
+  }
+}
+
+.content__action {
+  @include mq(mobile-xl) {
+    margin-bottom: 50px;
+  }
+}

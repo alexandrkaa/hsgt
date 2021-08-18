@@ -1,0 +1,36 @@
+$breakpoints: (
+  mobile-s: 414px,
+  mobile-l: 768px,
+  mobile-xl: 1023px,
+  desktop-ss: 1024px,
+  desktop-s: 1200px,
+  desktop-l: 1440px,
+  desktop-xl: 1600px,
+  desktop-xxl: 1920px,
+);
+
+$mobile-width: map-get($breakpoints, mobile);
+$desktop-width: map-get($breakpoints, desktop);
+
+$mobile: map-get($breakpoints, mobile);
+$desktop: map-get($breakpoints, desktop);
+
+$cl-white: #ffffff;
+$cl-black: #000000;
+$cl-yellow: #d5d257;
+$cl-green: #8ba430;
+
+@import "normalize";
+@import "mixin.scss";
+@import "fonts.scss";
+@import "global.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/embed-responsive.scss";
+@import "blocks/page.scss";
+@import "blocks/main.scss";
+@import "blocks/social.scss";
+@import "blocks/info.scss";
+@import "blocks/copyright.scss";
+@import "blocks/content.scss";
+@import "blocks/action.scss";
+@import "blocks/logo.scss";

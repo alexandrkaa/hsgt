@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+.vscode
+.ftpcred.json
+*.ai
+*.log
+*.psd
+*.sublime*
+build/
+node_modules/
+npm-debug.*
+source/css/*.css
+Thumbs.db
+template/
+wp-content/themes/paradoxprava/assets/
+.ftpconfig

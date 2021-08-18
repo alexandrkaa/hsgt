@@ -1,0 +1,5 @@
+.info {
+  @include mq(mobile-xl) {
+    display: none;
+  }
+}

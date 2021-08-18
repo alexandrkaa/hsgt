@@ -1,0 +1,12 @@
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.copyright__lead {
+  color: $cl-yellow;
+  font-size: 18px;
+}

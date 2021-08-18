@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  line-height: 150%;
+  min-width: 320px;
+  padding: 0;
+  color: $cl-black;
+  background-color: $cl-white;
+  // background-color: $cl-bg;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

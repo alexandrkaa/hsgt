@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img//background-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: $cl-black;
+  padding: 27px 36px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  position: relative;
+
+  .webp & {
+    background-image: url("../img/background-desktop.webp");
+  }
+
+  @include mq(mobile-xl) {
+    flex-direction: column;
+    background-image: url("../img//background-mobile.jpg");
+    background-size: 100% auto;
+    background-position: center 130px;
+    height: auto;
+    max-width: 100vw;
+    padding: 20px;
+
+    .webp & {
+      background-image: url("../img/background-mobile.webp");
+    }
+  }
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 60%;
+  flex-shrink: 1;
+
+  @include mq(desktop-xl) {
+    flex-basis: 50%;
+  }
+
+  @include mq(desktop-l) {
+    flex-basis: 45%;
+  }
+}
+
+.main__content {
+  margin-top: -20px;
+  flex-basis: 40%;
+
+  @include mq(desktop-xl) {
+    flex-basis: 50%;
+  }
+
+  @include mq(desktop-l) {
+    flex-basis: 55%;
+  }
+}
+
+.main__age-limit {
+  position: absolute;
+  top: 25px;
+  right: 29px;
+
+  @include mq(mobile-xl) {
+    width: 41px;
+    height: 41px;
+    right: auto;
+    left: 11px;
+    top: 11px;
+  }
+}
