@@ -45,6 +45,10 @@
     flex-basis: 50%;
   }
 
+  @include mq(desktop-xl1) {
+    flex-basis: 50%;
+  }
+
   @include mq(desktop-l) {
     flex-basis: 45%;
   }
@@ -55,6 +59,10 @@
   flex-basis: 40%;
 
   @include mq(desktop-xl) {
+    flex-basis: 50%;
+  }
+
+  @include mq(desktop-xl1) {
     flex-basis: 50%;
   }
 
