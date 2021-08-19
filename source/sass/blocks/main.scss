@@ -52,6 +52,10 @@
   @include mq(desktop-l) {
     flex-basis: 45%;
   }
+
+  @include mq(desktop-s1) {
+    flex-basis: 40%;
+  }
 }
 
 .main__content {
@@ -68,6 +72,10 @@
 
   @include mq(desktop-l) {
     flex-basis: 55%;
+  }
+
+  @include mq(desktop-s1) {
+    flex-basis: 60%;
   }
 }
 

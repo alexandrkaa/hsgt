@@ -1,6 +1,18 @@
 .logo {
-  @include mq(desktop-s) {
-    max-width: 300px;
+  @include mq(desktop-xl1) {
+    max-width: 410px;
+  }
+
+  @include mq(desktop-l1) {
+    max-width: 380px;
+  }
+
+  @include mq(desktop-s2) {
+    max-width: 330px;
+  }
+
+  @include mq(desktop-s1) {
+    max-width: 280px;
   }
 
   @include mq(mobile-xl) {

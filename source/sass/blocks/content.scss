@@ -21,13 +21,23 @@
   }
 
   @include mq(desktop-xl) {
-    font-size: 70px;
-    margin-top: 30px;
+    font-size: 65px;
+    margin-top: 28px;
+  }
+
+  @include mq(desktop-s2) {
+    font-size: 60px;
+    margin-top: 27px;
+  }
+
+  @include mq(desktop-s1) {
+    font-size: 58px;
+    margin-top: 24px;
   }
 
   @include mq(desktop-s) {
-    font-size: 60px;
-    margin-top: 26px;
+    font-size: 56px;
+    margin-top: 22px;
   }
 
   @include mq(mobile-xl) {
@@ -51,12 +61,22 @@
   }
 
   @include mq(desktop-xl) {
-    font-size: 35px;
-    padding: 7px;
+    font-size: 32px;
+    padding: 6px;
+  }
+
+  @include mq(desktop-s2) {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  @include mq(desktop-s1) {
+    font-size: 29px;
+    padding: 5px;
   }
 
   @include mq(desktop-s) {
-    font-size: 30px;
+    font-size: 28px;
     padding: 5px;
   }
 
@@ -80,13 +100,23 @@
   margin-top: 10px;
   text-align: center;
 
-  @include mq(desktop-xl) {
-    font-size: 19px;
-    line-height: 23px;
+  @include mq(desktop-xl1) {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  @include mq(desktop-l1) {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  @include mq(desktop-s2) {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   @include mq(desktop-s) {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
   }
 
